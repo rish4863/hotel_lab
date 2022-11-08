@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Miniver&display=swap");
+/* setting the colors and font */
+h1 {
+  color: blue;
+}
+h1 { font-family: "Garamond", cursive;
+}
+
+p {font-family: "Garamond", cursive;
+}
+
+p {
+  color: red;
+}
+
+p {
+  font-size: 25px;
+}
+
+button {
+  background-color: #008CBA; /* blue */
+  
+
+
+
