@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - hotel lab 4 fixed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!---- Rishi Doreswamy
+11/7/22 
+Dr. Cumbie-->
+<div class="row">
+  <div class="col-md-6 offset-md-3 card mt-3">
+
+  <h1> Welcome to the bowling team.</h1>
+  <p>Enter your name and personal information to sign up for bowling team roster and add name to the roster.</p>
+<h2> Enter your name</h2>
+  
+
+    
+
+   <label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"><br>
+
+  <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <h2> Enter your personal information.</h2>
+    <label for "emailaddress"> Email address</label>
+    <input type = "text" id= "emailaddress" name= "emailaddress"><br><br>
+    <label  for "dateofbirth"> Date of Birth(mm/dd/yyyy)</label>
+    <input type ="text" id= "dateofbirth" name="dateofbirth">
+    
+    <p>Please select your level:</p>
+    <input type="radio" id="Beginner" name="level" value="Beginner">
+    <label for="Beginner">Beginner</label><br>
+    <input type="radio" id="Intermediate" name="level" value="Intermediate">
+    <label for="Intermediate">Intermediate</label><br>
+    <input type="radio" id="Advanced" name="level" value="Advanced">
+    <label for ="Advanced">Advanced</label><br>
+     <div class="mb-3 mt-3">
+    <p> Enter your password
+    <input type="password" id="password" name="password"><br />
+ <p> Choose todays date for our records
+   <label  for "dateofbirth"> todays date (mm/dd/yyyy)</label>
+   <p> Enter todays date and time for our records</p>
+  <input type="datetime-local" name="datetime"><br>
+    
+  <button id="sendName">Go! </button>
+   <div id="greetingOutput"></div>
+ <div id="result"></div>  
+                    
+    
+<p>Thank you for signing up for the bowling team. We're looking forward to a great season. Please call us if you have any questions. </p>
+  </div> 
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
